@@ -18,6 +18,7 @@ import {
   Calendar, 
   Clock,
   Users, 
+  X
 } from 'lucide-react';
 
 interface BookDemoProps {
@@ -134,6 +135,15 @@ export default function BookDemo({ children }: BookDemoProps) {
         {children}
       </DialogTrigger>
       <DialogContent className="w-screen h-screen max-w-none max-h-none m-0 p-0 bg-white dark:bg-gray-900 overflow-y-auto">
+        {/* Custom Close Button - Mobile Optimized */}
+        <button
+          onClick={() => setOpen(false)}
+          className="fixed top-4 right-4 z-50 w-10 h-10 sm:w-12 sm:h-12 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+          aria-label="Close dialog"
+        >
+          <X className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600 dark:text-gray-400" />
+        </button>
+        
         <div className="min-h-screen p-6 sm:p-8 lg:p-12">
           <div className="max-w-2xl mx-auto">
             <DialogHeader className="text-left mb-8">

@@ -45,13 +45,13 @@ export const metadata: Metadata = {
     siteName: "Jabin International",
     images: [
       {
-        url: "https://jabin.org/jabin_logo_light.png",
+        url: "https://jabin.org/jabin_logo_dark.png",
         width: 1200,
         height: 630,
         alt: "Jabin International Logo",
       },
       {
-        url: "https://jabin.org/jabin_logo_light.png",
+        url: "https://jabin.org/jabin_logo_dark.png",
         width: 800,
         height: 600,
         alt: "Jabin International Logo",

@@ -50,7 +50,7 @@ export default function Header() {
                 src={isScrolled ? "/jabin_logo_dark.svg" : "/jabin_logo_light.png"}
                 alt="Jabin International Logo"
                 fill
-                className="object-contain"
+                className="object-contain object-left"
               />
             </div>
           </Link>

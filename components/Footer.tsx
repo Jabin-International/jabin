@@ -38,7 +38,7 @@ export default function Footer() {
                   src="/jabin_logo_light.png"
                   alt="Jabin International Logo"
                   fill
-                  className="object-contain"
+                  className="object-contain object-left"
                 />
               </div>
             </div>

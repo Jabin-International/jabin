@@ -43,11 +43,31 @@ export const metadata: Metadata = {
     title: "Jabin International Private Limited - Digital Solutions & Business Services",
     description: "Custom web solutions, creative products, business consultancy, and technology training services.",
     siteName: "Jabin International",
+    images: [
+      {
+        url: "https://jabin.org/jabin_logo_light.png",
+        width: 1200,
+        height: 630,
+        alt: "Jabin International Logo",
+      },
+      {
+        url: "https://jabin.org/jabin_logo_light.png",
+        width: 800,
+        height: 600,
+        alt: "Jabin International Logo",
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Jabin International Private Limited - Digital Solutions & Business Services",
     description: "Custom web solutions, creative products, business consultancy, and technology training services.",
+    images: [
+      {
+        url: "https://jabin.org/jabin_logo_light.png",
+        alt: "Jabin International Logo",
+      }
+    ]
   },
   manifest: "/manifest.json",
   appleWebApp: {
@@ -75,6 +95,18 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="theme-color" content="#3b82f6" />
+        
+        {/* Additional OG Meta Tags for WhatsApp and other platforms */}
+        <meta property="og:image" content="https://jabin.org/jabin_logo_light.png" />
+        <meta property="og:image:secure_url" content="https://jabin.org/jabin_logo_light.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:image" content="https://jabin.org/jabin_logo_light.png" />
+        
+        {/* WhatsApp specific meta tags */}
+        <meta property="og:site_name" content="Jabin International" />
+        <meta property="og:locale" content="en_US" />
         
         {/* Preconnect to external domains for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

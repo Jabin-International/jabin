@@ -31,23 +31,6 @@ export default function HeroSection() {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full">
-        <video
-          autoPlay
-          muted
-          loop
-          className="w-full h-full object-cover"
-        >
-          <source src="/hero_video.mp4" type="video/mp4" />
-          {/* Fallback for browsers that don't support video */}
-          <div className="w-full h-full"></div>
-          {/* Fallback gradient background */}
-        </video>
-        {/* Subtle blue overlay for better text readability */}
-        <div className="absolute inset-0 bg-blue-900/60"></div>
-      </div>
-
       {/* Content */}
       <div className="max-w-6xl mx-auto px-6 text-center relative z-10 pt-24 pb-20">
         {/* Professional Trust Badge */}

@@ -16,11 +16,11 @@ interface CloudySkyProps {
 export default function CloudySky({ 
   children, 
   className = "",
-  cloudCount = 5,
+  cloudCount = 10,
   // cloudOpacity = 0.2,
-  gradientFrom = "from-blue-500",
+  gradientFrom = "from-blue-600",
   gradientVia = "via-blue-400", 
-  gradientTo = "to-blue-500"
+  gradientTo = "to-blue-600"
 }: CloudySkyProps) {
   const [scrollY, setScrollY] = useState(0);
   const [imageError, setImageError] = useState(false);

@@ -45,13 +45,13 @@ export const metadata: Metadata = {
     siteName: "Jabin International",
     images: [
       {
-        url: "https://jabin.org/jabin_logo_dark.png",
+        url: "https://jabin.org/jabin_logo_dark.svg",
         width: 1200,
         height: 630,
         alt: "Jabin International Logo",
       },
       {
-        url: "https://jabin.org/jabin_logo_dark.png",
+        url: "https://jabin.org/jabin_logo_dark.svg",
         width: 800,
         height: 600,
         alt: "Jabin International Logo",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     description: "Custom web solutions, creative products, business consultancy, and technology training services.",
     images: [
       {
-        url: "https://jabin.org/jabin_logo_dark.png",
+        url: "https://jabin.org/jabin_logo_dark.svg",
         alt: "Jabin International Logo",
       }
     ]
@@ -97,12 +97,12 @@ export default function RootLayout({
         <meta name="theme-color" content="#3b82f6" />
         
         {/* Additional OG Meta Tags for WhatsApp and other platforms */}
-        <meta property="og:image" content="https://jabin.org/jabin_logo_dark.png" />
-        <meta property="og:image:secure_url" content="https://jabin.org/jabin_logo_dark.png" />
+        <meta property="og:image" content="https://jabin.org/jabin_logo_dark.svg" />
+        <meta property="og:image:secure_url" content="https://jabin.org/jabin_logo_dark.svg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:image" content="https://jabin.org/jabin_logo_dark.png" />
+        <meta name="twitter:image" content="https://jabin.org/jabin_logo_dark.svg" />
         
         {/* WhatsApp specific meta tags */}
         <meta property="og:site_name" content="Jabin International" />

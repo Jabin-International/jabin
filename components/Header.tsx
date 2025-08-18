@@ -29,8 +29,8 @@ export default function Header() {
   }, []);
 
   const navigation = [
-    { name: 'About Jabin', href: '/#discover', icon: Globe },
-    { name: 'Services', href: '/#programs', icon: BookOpen },
+    { name: 'About Jabin', href: '/about', icon: Globe },
+    { name: 'Services', href: '/services', icon: BookOpen },
     { name: 'Why Choose Us', href: '/#why-choose', icon: Users },
     { name: 'Contact', href: '/#contact', icon: Phone },
   ];
